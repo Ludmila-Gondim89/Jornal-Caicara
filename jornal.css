@@ -1,0 +1,203 @@
+body{
+    font-family: Calibri, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header h1{
+    box-sizing: border-box; 
+    background-color: #c01d1d;
+    color: white;
+    font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Times New Roman';
+}
+
+header h1:hover{
+    font-size: 48px;
+    transition-property: font-size;
+    transition-duration: 4s;
+}
+
+ header nav ul{
+    list-style-type: none;
+    background-color:#beadad94;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 0px;
+    text-align: center;  
+}
+
+ header nav ul li{
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: #c01d1d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header nav ul li a:-webkit-any-link { 
+    text-decoration:none; 
+    color: #c01d1d;
+}
+
+header nav ul li :hover{
+    background-color:#867c7c73;   
+}
+
+main{
+    margin: 16px;
+}
+
+main article{
+    margin-left: 70px;   
+}
+
+main h2{
+    font-size: 20px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    letter-spacing: 1.5px
+}
+
+main article h3{
+    margin-left: 200px;
+    padding-left: 25px;
+    margin-right: 600px;
+}
+
+main article p{
+    display: block;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 600px;
+    margin-top: 0px;
+    margin-bottom: 110px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+}
+
+.alinhar-aviao{
+    margin-top: 180px;
+    padding-left: 100px;
+}
+#cachaca{
+    width: 200px;
+    float: left;
+    border: 3px solid #be0b0b; 
+    border-radius: 10px;
+}
+
+#incendio{
+    width: 180px;
+    float: left;
+    border: 3px solid #be0b0b;
+    border-radius: 10px;
+}
+
+#aviao{
+    width: 280px;
+    float: left;
+    border: 3px solid #be0b0b;
+    border-radius: 10px;
+}
+
+#raposa{
+    width: 200px;
+    float: left;
+    border: 3px solid #be0b0b;
+    border-radius: 10px;
+}
+
+#galo{
+    width: 200px;
+    float: left;
+    border: 3px solid #be0b0b;
+    border-radius: 10px;
+}
+
+#Caicara{
+    width: 400px;
+}
+
+.o-bairro{
+    text-align: center;
+    margin-left: 0px;
+}
+#mapa{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.o-bairro h4{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+aside{
+    display: block;
+    float: right;
+    margin-right: 50px;
+    border: 3px solid #be0b0b;
+    background-color: yellowgreen;
+}
+
+aside iframe{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+aside h5{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: blue;
+    animation-name: compre;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes compre{
+    0% {color: blue;
+    }
+    25% {
+        color: rgb(255, 60, 0);
+    }
+    50% {
+        color: blue;
+    }
+    75% {
+        color: rgb(255, 60, 0);
+    } 
+    100% {
+        color: blue;
+    }    
+}
+
+footer p{
+    text-align: center;
+    box-sizing: border-box; 
+    background-color: #c01d1d;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    color: white;
+}
